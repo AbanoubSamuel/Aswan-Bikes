@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+ h1{
+    text-align: center;
+ }
+
+form{
+    border:  1px ghostwhite solid;
+    padding: 10px;
+    margin: 20px;
+    box-shadow:  2px 2px 7px gainsboro;
+    width: 700px;
+background-color: ghostwhite;
+border-radius: 20px;
+
+}
+
+
+.form-group{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.form-control1{
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    width: 650px;
+    box-shadow:  2px 2px 7px gainsboro;
+    border-radius: 7px;
+    border: 1px gainsboro;
+}
+
+input{
+    padding: 17px;
+    width: 600px;
+    border: 2px gainsboro;
+    box-shadow: 2px 2px 5px gainsboro;
+    border-radius: 7px;
+    font-size: large;
+
+}
+
+.bottom{
+    background-color: seagreen;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    width: 200px;
+}
+
+.bottom:hover{
+    background-color: rgb(66, 188, 119);
+}
+
+
+.form-control{
+    width: 630px;
+    padding: 15px;
+    border: 2px gainsboro;
+    box-shadow: 2px 2px 5px gainsboro;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.phone{
+    width:630px ;
+}
+
+
+.custom-control-input
+{
+
+    width: 20px;
+}
